@@ -7,9 +7,3 @@ body {
 text {
     background-color: aqua;
 }
-.alert {
-  padding: 20px;
-  background-color: #d2261a; /* Red */
-  color: white;
-  margin-bottom: 15px;
-}

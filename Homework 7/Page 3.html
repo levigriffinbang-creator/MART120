@@ -22,16 +22,34 @@
 </html>
 <html>
 <h1>Contact Us</h1>
-  <form action="Page 3.html" type="Post">
-    Name (First and Last): <input type="text" id="Name"><br>
-    Email: <input type="text" id="Email"><br>
-   <input type="radio" name="color" value="yes">Yes<br>
-    <input type="radio" name="color" value="no">No<br>
+  <head>
+        <script>
+            function getData()
+            {
+                var name = document.getElementById("txtName").value;
+                var phone = document.getElementById("txtPhone").value;
+
+                window.alert("name: " + name + " phone: " + phone);
+            }
+        </script>
+    </head>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="txtName"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="text" id="txtPhone"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="btnSubmit" onClick="getData();">Submit</button></td>
+            </tr>
+        </table>
+    </body>
+ </html>
     <H1>Other Links</H1>
 <a href="Page 1.html"/>Home Page</a>
  <a href="Page 2.html"/>Fire Punch</a>
  <style>
-p {
-  background-image: url(face.png);
-}
 </style> 
